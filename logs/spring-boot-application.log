@@ -1,0 +1,37 @@
+2024-07-31T10:18:28.235+05:30  WARN 4188 --- [cpm] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17h7m21s991ms947µs400ns).
+2024-07-31T10:55:06.221+05:30  INFO 21688 --- [cpm] [restartedMain] com.incture.cpm.CpmApplication           : Starting CpmApplication using Java 17.0.11 with PID 21688 (C:\Users\shiwam.kumar\Downloads\grand finale\cpmPhaseOne-abhay\target\classes started by shiwam.kumar in C:\Users\shiwam.kumar\Downloads\grand finale)
+2024-07-31T10:55:06.228+05:30  INFO 21688 --- [cpm] [restartedMain] com.incture.cpm.CpmApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-07-31T10:55:06.419+05:30  INFO 21688 --- [cpm] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-31T10:55:06.423+05:30  INFO 21688 --- [cpm] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-31T10:55:09.182+05:30  INFO 21688 --- [cpm] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-31T10:55:09.565+05:30  INFO 21688 --- [cpm] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 347 ms. Found 26 JPA repository interfaces.
+2024-07-31T10:55:11.582+05:30  INFO 21688 --- [cpm] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 3067 (http)
+2024-07-31T10:55:11.617+05:30  INFO 21688 --- [cpm] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-31T10:55:11.618+05:30  INFO 21688 --- [cpm] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-31T10:55:11.805+05:30  INFO 21688 --- [cpm] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-31T10:55:11.807+05:30  INFO 21688 --- [cpm] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5382 ms
+2024-07-31T10:55:12.246+05:30  INFO 21688 --- [cpm] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-31T10:55:12.493+05:30  INFO 21688 --- [cpm] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-31T10:55:12.696+05:30  INFO 21688 --- [cpm] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-31T10:55:13.531+05:30  INFO 21688 --- [cpm] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-31T10:55:13.623+05:30  INFO 21688 --- [cpm] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-07-31T10:55:14.305+05:30  INFO 21688 --- [cpm] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@78f407d8
+2024-07-31T10:55:14.309+05:30  INFO 21688 --- [cpm] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-07-31T10:55:14.510+05:30  WARN 21688 --- [cpm] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-31T10:55:14.514+05:30  WARN 21688 --- [cpm] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-07-31T10:55:18.932+05:30  INFO 21688 --- [cpm] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-31T10:55:19.813+05:30  INFO 21688 --- [cpm] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-31T10:55:20.922+05:30  INFO 21688 --- [cpm] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-07-31T10:55:23.929+05:30  WARN 21688 --- [cpm] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-31T10:55:24.039+05:30  INFO 21688 --- [cpm] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-07-31T10:55:24.850+05:30 DEBUG 21688 --- [cpm] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 178 mappings in 'requestMappingHandlerMapping'
+2024-07-31T10:55:25.139+05:30 DEBUG 21688 --- [cpm] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2024-07-31T10:55:25.271+05:30 DEBUG 21688 --- [cpm] [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2024-07-31T10:55:25.572+05:30 DEBUG 21688 --- [cpm] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-07-31T10:55:25.665+05:30 DEBUG 21688 --- [cpm] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-07-31T10:55:26.106+05:30  INFO 21688 --- [cpm] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-31T10:55:26.186+05:30  INFO 21688 --- [cpm] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 3067 (http) with context path '/'
+2024-07-31T10:55:26.216+05:30  INFO 21688 --- [cpm] [restartedMain] com.incture.cpm.CpmApplication           : Started CpmApplication in 21.012 seconds (process running for 22.377)
+2024-07-31T10:55:48.764+05:30  INFO 21688 --- [cpm] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-31T10:55:48.771+05:30  INFO 21688 --- [cpm] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-07-31T10:55:48.799+05:30  INFO 21688 --- [cpm] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
